@@ -1,0 +1,109 @@
+.my-header {
+  font-size: 44px;
+  text-align: center;
+}
+
+/* Nav Item */
+#navbarContent > div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#navbarContent > div > a {
+  color: gray;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+#navbarContent > div > a:hover {
+  color: black;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+/* CSS for custome carousel */
+.my-carousel {
+  text-align: left;
+  right: 1px;
+  left: 1px;
+  bottom: 1px;
+  padding-left: 7px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: gray;
+}
+
+/* custom border class */
+.border-2 {
+  border-width: 2px !important;
+}
+
+.border-top-2{
+  border-top-width: 2px !important;
+}
+
+.border-3 {
+  border-width: 3px !important;
+}
+
+.my-footer > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.my-footer > div > a:hover {
+  text-decoration: none;
+  color: gray;
+}
+/* Extra small devices (portrait phones, less than 576px)
+ * No media query for `xs` since this is the default in Bootstrap
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* CSS for font style of header */
+  .my-header {
+    font-size: 49px;
+    text-align: left;
+  }
+  .my-header-img {
+    padding: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* CSS for font style of header */
+  .my-header {
+    font-size: 66px;
+    text-align: left;
+  }
+  .my-header-img {
+    padding: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* CSS for font style of header */
+  .my-header {
+    font-size: 76px;
+    text-align: left;
+  }
+  .my-header-img {
+    padding-right: 0;
+    padding-left: 15px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS for font style of header */
+  .my-header {
+    font-size: 85px;
+    text-align: left;
+  }
+  .my-header-img {
+    padding-right: 0;
+  }
+}
